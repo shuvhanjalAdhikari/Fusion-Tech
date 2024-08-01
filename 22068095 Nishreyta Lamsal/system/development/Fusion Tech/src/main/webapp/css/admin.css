@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: 'Times New Roman',;
+	margin: 0;
+	padding: 0;
+    background-color: rgba(255, 255, 255, 0.55);
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+h1 {
+	background-color: #B3C8CF;
+	color: black;
+	padding: 26px;
+	margin: 0;
+    size: 24px;
+	left: 20px;
+	margin-left: 13.5%;
+}
+.ap{
+    text-align: center;
+	background-color:#B3C8CF;
+	display: flex;
+}
+.product-list, .order-list{
+	margin: 40px;
+	padding: 20px;
+	border: 1px solid #ccc;
+    background-color: #fff;
+	box-shadow: 0px 25px 40px #B3C8CF ;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+th, td {
+	border: 1px solid black;
+	padding: 8px;
+	text-align: left;
+}
+th {
+	background-color:#BED7DC;
+    color: black;
+}
+label {
+	display: block;
+	margin-bottom: 10px;
+    color: black;
+}
+input[type=text], input[type=number] {
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.anp1, .anp2 {
+    /* Existing button styles */
+    background-color: #B3C8CF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+    border: none;
+    font-family: 'Times New Roman';
+    margin-bottom: 10px;
+    /* Transition for smooth color change */
+    transition: background-color 0.3s ease;
+}
+
+.anp1:hover, .anp1:hover a {
+    /* Background color change on hover */
+    background-color: #B3C8CF;
+    color: yellow; /* Change text color to yellow */
+}
+
+.anp2:hover, .anp2:hover a {
+    /* Background color change on hover */
+    background-color: #B3C8CF;
+    color: yellow; /* Change text color to yellow */
+}
+
+h2{
+    color:black;
+}

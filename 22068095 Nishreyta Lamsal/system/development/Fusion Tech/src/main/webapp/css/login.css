@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	background: url("../images/bg8.jpg");
+  	background-color: rgba(255, 255, 255, 0.5); 
+  	background-blend-mode: lighten; 
+ 	background-size: cover; 
+	font-family: 'Open Sans', sans-serif, 'Arial', sans-serif;
+	font-size: 16px;
+	color: #333;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wrapper{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	width: 100%;
+	height: 100%;
+}
+
+.box{
+	width: 700px;
+	background: #f6f4f3;
+	display: flex;
+}
+
+.box-left{
+	flex: 1;
+}
+
+.box-right{
+	flex: 1;
+	padding: 20px;
+	padding-top: 15%;
+}
+
+#login-container {
+	width: 360px;
+}
+
+h3{
+	align-items: center;
+	justify-content: center;
+	margin-left: 38%;
+}
+
+h1 {
+	margin-left: 32%;
+	margin-bottom: 5%;
+	font-family: Lato;
+	color: #8d8986;
+}
+
+.logo {
+	font-size: 2.1rem;
+	color: #414141;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	font-weight: 600;
+	justify-content: center;
+	align-items: center;
+	margin-left: 38%;
+	text-decoration: None;
+	font-family: Times New Roman; 
+}
+
+#login-panel {
+	border: 1px solid #bdc3c7;
+	border-bottom: 5px solid #bdc3c7;
+	border-radius: 0 0 5px 5px;
+	padding: 10px;
+	background: whitesmoke;
+}
+
+#panel-heading {
+	border-bottom: 1px solid #dfe2e4;
+	padding: 10px 15px;
+}
+
+#panel-heading h3 {
+	font-size: 22px;
+	line-height: 1.1;
+}
+
+#panel-body {
+	padding: 15px;
+	flex-direction: column;
+	gap: 3px;
+}
+
+#panel-body input {
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+	font-size: 14px;
+	font-family: Times New Roman;
+	color: #555;
+	padding: 10px;
+	background: #fbfbfb;
+}
+
+button{
+	padding: 10px;
+	width: 30%;
+	border: 0;
+	margin-left: 35%;
+	background-color: #8d8986;
+	color: #ffffff;
+	border-radius: 5px;
+	justify-content: center;
+	align-items:center;
+	font-size: 1rem;
+	cursor: pointer;
+}

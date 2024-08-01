@@ -1,0 +1,137 @@
+@charset "ISO-8859-1";
+
+#search {
+	width: 50%;
+	margin-top: 8%;
+	margin-left: 25%;
+}
+
+.filter-form {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	padding: 30px;
+}
+
+.filter-label {
+	flex-basis: auto;
+}
+
+.filter-input[type="text"], select {
+	width: auto;
+	padding: 10px;
+	border: none;
+	margin-right: 10px;
+	background-color: #f5f5f5;
+}
+
+.filter-button[type="submit"] {
+	padding: 10px;
+	border: none;
+	background-color: #8d8986;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+#suit {
+	margin-top: 10px;
+}
+
+.featureproduct {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px 0px;
+}
+
+.featureproductcontainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 5px;
+	width: 1200px;
+	padding: 20px 0px;
+	background-color: #d6d6d60e;
+	border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.productfeatureimg {
+	width: 250px;
+	height: 280px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f5f5f5;
+	border: 1px solid(0, 0, 0, 0.04);
+}
+
+.productfeatureimg img {
+	width: 90%;
+	height: 90%;
+	object-fit: contain;
+	object-position: center;
+}
+
+.productfeaturetextcontainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.productfeaturetext {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+
+.productfeaturetext strong {
+	color: #272727;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+.productfeaturetext span {
+	color: #747474;
+}
+
+.cartlike {
+	display: flex;
+}
+
+.cartlike a {
+	width: 35px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	border: 1px solid #747474;
+	margin: 0px 3px;
+	font-size: 0.9rem;
+}
+
+.cartlike .icon-btn a i {
+	color: #2c2c2c;
+}
+
+.cartlike .icon-btn a:hover {
+	background-color: Red;
+	transition: all ease 0.2s;
+}
+
+.cartlike .icon-btn a:hover i {
+	color: #ffffff;
+	transition: all ease 0.3s;
+}
+
+    .icon-btn {
+        border: none;
+        margin-right: 30px;
+        background: none;
+        cursor: pointer;
+    }
